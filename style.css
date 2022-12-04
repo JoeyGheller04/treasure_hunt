@@ -1,0 +1,61 @@
+body{
+    background-color: #e0ffe1;
+}
+button {
+    background-color: #4CAF50;
+    border: 2px solid black;
+    border-radius: 10%;
+    color: white;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+form{
+    display: flex;
+    gap: 10px;
+}
+.container{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(50px, auto);
+}
+.header{
+    grid-column: 1/4;
+    grid-row: 1;
+    font-size: 40px;
+}
+.cell_tentativi{
+    grid-column: 1;
+    grid-row: 2;
+    text-align: center;
+}
+.cell_button{
+    grid-column: 2/3;
+    grid-row: 2;
+}
+.cell_res{
+    grid-column: 1/4;
+    grid-row: 3;
+    text-align: center;
+    font-size: 30px;
+}
+h1{
+    background-color: rgb(0, 119, 30);
+    border: 2px solid black;
+    border-radius: 100%;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+}
+.treasure{
+    background-image: url("treasure.jpg");
+    background-size: contain;
+}
