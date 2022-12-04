@@ -43,16 +43,16 @@
         <div class="cell_tentativi"><?php echo "<h1>".$_SESSION["tentativi"]."</h1>"?></div>
         <div class="cell_button">
             <form action="" method="post">
-                <button type="submit" class="treasure" value="0" name="btn" id="0"></button>
-                <button type="submit" class="treasure" value="1" name="btn" id="1"></button>
-                <button type="submit" class="treasure" value="2" name="btn" id="2"></button>
-                <button type="submit" class="treasure" value="3" name="btn" id="3"></button>
-                <button type="submit" class="treasure" value="4" name="btn" id="4"></button>
-                <button type="submit" class="treasure" value="5" name="btn" id="5"></button>
-                <button type="submit" class="treasure" value="6" name="btn" id="6"></button>
-                <button type="submit" class="treasure" value="7" name="btn" id="7"></button>
-                <button type="submit" class="treasure" value="8" name="btn" id="8"></button>
-                <button type="submit" class="treasure" value="9" name="btn" id="9"></button>
+                <button type="submit" class="aiuola" value="0" name="btn" id="0"></button>
+                <button type="submit" class="aiuola" value="1" name="btn" id="1"></button>
+                <button type="submit" class="aiuola" value="2" name="btn" id="2"></button>
+                <button type="submit" class="aiuola" value="3" name="btn" id="3"></button>
+                <button type="submit" class="aiuola" value="4" name="btn" id="4"></button>
+                <button type="submit" class="aiuola" value="5" name="btn" id="5"></button>
+                <button type="submit" class="aiuola" value="6" name="btn" id="6"></button>
+                <button type="submit" class="aiuola" value="7" name="btn" id="7"></button>
+                <button type="submit" class="aiuola" value="8" name="btn" id="8"></button>
+                <button type="submit" class="aiuola" value="9" name="btn" id="9"></button>
             </form>
         </div>
         <div class="cell_res"><?php if($_POST){Game();}?></div>
